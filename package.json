@@ -1,6 +1,6 @@
 {
-  "name": "node-forge",
-  "version": "1.4.0",
+  "name": "@growrk/node-forge",
+  "version": "1.4.1-grk.0",
   "description": "JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.",
   "homepage": "https://github.com/digitalbazaar/forge",
   "author": {
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/forge"
+    "url": "git+https://github.com/growrk/forge.git"
   },
   "bugs": {
     "url": "https://github.com/digitalbazaar/forge/issues",
@@ -119,5 +119,8 @@
     "buffer": false,
     "crypto": false,
     "process": false
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
